@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    overflow:hidden;
+    overflow-x:hidden;
     margin: 0;
     padding: 0;
 }
@@ -10,6 +10,15 @@ h1{
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-style: bold;
+
+    margin:0;
+}
+
+p{
+    font-family: "Arial", sans-serif;
+    font-optical-sizing: auto;
+
+    margin:0;
 }
 
 .hero-banner{
@@ -22,4 +31,72 @@ h1{
 .hero-banner img{
     height: auto;
     max-height: 520px;
+}
+
+
+
+.story-overview{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #64748B;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-overview h1,p{
+    color: #FFFDF6;
+}
+
+.story-overview p{
+    font-size: 30px;
+}
+
+.story-overview h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+
+.story-section, .overview-section{
+    display: flex;
+    flex-direction: row;
+
+    gap: 64px;
+
+    width: 90vw;
+    max-width: 1180px;
+}
+
+.story-section{
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.story-section img{
+    width: 20%;
+    max-width:280px;
+    height: auto;
+
+    object-fit: contain;
+}
+
+.story-section section{
+    max-width: 800px;
+}
+
+
+.overview-section{
+    flex-direction: row-reverse;
+}
+
+
+
+
+/* UTILITY CLASSES */
+.flex-down{
+    display: flex;
+    flex-direction: column;
 }
