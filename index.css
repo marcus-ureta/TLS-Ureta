@@ -218,6 +218,15 @@ p{
 }
 
 
+.arrow-outside{
+    align-self: center;
+}
+
+.arrow-inside, .arrow-outside {
+    cursor: pointer;
+    width: 36px;
+    height: fit-content;
+}
 
 .arrow-inside{
     display:none;
