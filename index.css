@@ -55,7 +55,8 @@ p{
 }
 
 .story-overview p{
-    font-size: clamp(1rem, 2.25vw, 30px);
+    font-size: clamp(1rem, 2.25vw, 27px);
+    letter-spacing: 0.5px;
 }
 
 .story-overview h1{
@@ -89,7 +90,7 @@ p{
 }
 
 .story-section section{
-    width: 70%;
+    width: 80%;
     max-width: 800px;
 
     justify-content: center;
