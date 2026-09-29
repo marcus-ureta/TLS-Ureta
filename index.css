@@ -40,6 +40,8 @@ p{
     padding-bottom: 76px;
     background-color: #64748B;
 
+    min-height: fit-content;
+
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -119,7 +121,15 @@ p{
     flex-direction: column;
 }
 
+/* MEDIA QUERY CHECK */
+
 @media(max-width:640px) {
+
+    .story-overview{
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+
     .story-section, .overview-section{
         flex-direction: column;
         gap: 16px;
@@ -135,5 +145,9 @@ p{
 
     .story-section img {
         width:50%;
+    }
+
+    .story-section{
+        margin-bottom: 48px;
     }
 }
