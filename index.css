@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #D6F2F4;
 
@@ -388,6 +392,27 @@ footer{
 .align-center-end{
     align-items: center; 
     justify-content:end
+}
+
+.grid-row{
+    display:grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.grid-row a{
+    text-decoration: none;
+    color: #FFFDF6;
+}
+
+.grid-row a:hover{
+    color: #D6F2F4;
 }
 
 /* MEDIA QUERY CHECK */
