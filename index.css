@@ -116,3 +116,22 @@ p{
     display: flex;
     flex-direction: column;
 }
+
+@media(max-width:640px) {
+    .story-section, .overview-section{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .story-overview h1{
+        margin-bottom: 16px;
+    }
+
+    .overview-section img, .overview-section section, .story-section section{
+        width:90%;
+    }
+
+    .story-section img {
+        width:50%;
+    }
+}
