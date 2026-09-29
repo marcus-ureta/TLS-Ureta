@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
+    background-color: #D6F2F4;
+
     overflow-x:hidden;
     margin: 0;
     padding: 0;
@@ -238,6 +240,20 @@ p{
 }
 
 
+footer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 24px;
+
+    padding-top:30px;
+    padding-bottom:16px;
+
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: rgba(30, 41, 59, 80);
+}
 
 /* UTILITY CLASSES */
 .flex-down{
