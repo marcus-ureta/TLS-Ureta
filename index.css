@@ -153,6 +153,30 @@ p{
 }
 
 
+.gallery{
+    padding-top: 52x;
+    padding-bottom: 52px;
+    background-color: #64748B;
+
+    min-height: fit-content;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery h1{
+    text-align: center;
+
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    font-size: clamp(3rem, 4.5vw, 4.75rem);
+    color: #FFFDF6;
+}
+
+
 
 /* UTILITY CLASSES */
 .flex-down{
