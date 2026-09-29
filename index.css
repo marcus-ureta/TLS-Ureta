@@ -36,8 +36,8 @@ p{
 
 
 .story-overview{
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 76px;
+    padding-bottom: 76px;
     background-color: #64748B;
 
     display:flex;
@@ -87,6 +87,8 @@ p{
 .story-section section{
     width: 70%;
     max-width: 800px;
+
+    justify-content: center;
 }
 
 
