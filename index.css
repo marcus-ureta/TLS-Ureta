@@ -407,6 +407,7 @@ footer{
 }
 
 .grid-row a{
+    font-family: "Arial", sans-serif;
     text-decoration: none;
     color: #FFFDF6;
 }
