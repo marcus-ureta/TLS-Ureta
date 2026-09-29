@@ -51,11 +51,11 @@ p{
 }
 
 .story-overview p{
-    font-size: 30px;
+    font-size: clamp(1rem, 2.25vw, 30px);
 }
 
 .story-overview h1{
-    font-size: 64px;
+    font-size: clamp(2rem, 4.5vw, 60px);
     margin-bottom: 30px;
 }
 
@@ -68,10 +68,11 @@ p{
 
     width: 90vw;
     max-width: 1180px;
+
+    justify-content: space-between;
 }
 
 .story-section{
-    justify-content: space-between;
     margin-bottom: 96px;
 }
 
@@ -84,12 +85,25 @@ p{
 }
 
 .story-section section{
+    width: 70%;
     max-width: 800px;
 }
 
 
 .overview-section{
     flex-direction: row-reverse;
+}
+
+.overview-section section{
+    width: 50%;
+    max-width: 620px;
+}
+
+.overview-section img{
+    width: 40%;
+    height: auto;
+
+    object-fit: contain;
 }
 
 
