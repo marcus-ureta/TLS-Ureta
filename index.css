@@ -201,12 +201,14 @@ p{
     width: 140vw;
 }
 
-#select-img{
+.image-carousel{
     width: 85vw; 
     max-width: 600px; 
     height: 360px; 
     background-color: #D9D9D9;
 }
+
+
 
 .arrow-inside{
     display:none;
