@@ -167,6 +167,7 @@ video{
 .feature-img-container h2{
     position: absolute; 
     
+    width:100%;
     bottom: 0px; 
     left: 50%;
     transform: translateX(-50%);
