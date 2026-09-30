@@ -63,7 +63,7 @@ video{
     user-select: none;
     pointer-events: none;
 
-    text-shadow: -2px -2px 0 #1E4E52, 2px -2px 0 #1E4E52, -2px  2px 0 #1E4E52, 2px 2px 0 #1E4E52;
+    text-shadow: -2px -2px 0 #1E4E52, 2px -2px 0 #1E4E52, -2px  2px 0 #1E4E52, 2px 2px 0 #1E4E52, 0px 6px 12px #281b14;
 }
 
 .hero-video{
