@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -33,15 +34,59 @@ video{
 }
 
 .hero-banner{
+    background-color: #64748B;
     margin: auto;
-    display:flex;
-    flex-direction:column;
+    position: relative;
+    align-items: center;
     min-width: 100vw;
+
+    display: grid;
+    place-items: center;
 }
 
-.hero-banner img{
-    height: auto;
-    max-height: 520px;
+.hero-banner h1 {
+    grid-area: 1 / 1;
+    word-wrap: break-word;
+
+    color: #B9E0DC;
+    font-family: "Press Start 2P", system-ui;
+    font-size: clamp(1.65rem, 4vw, 5rem);
+    font-weight: 700;
+    text-align: center;
+
+    max-width: 1028px;
+    line-height: 1.2;
+
+    margin: 0;
+    z-index: 2;
+
+    user-select: none;
+    pointer-events: none;
+
+    text-shadow: -2px -2px 0 #1E4E52, 2px -2px 0 #1E4E52, -2px  2px 0 #1E4E52, 2px 2px 0 #1E4E52;
+}
+
+.hero-video{
+    grid-area: 1 / 1;
+    width: 105%; 
+    max-height: 720px;
+    object-fit: cover;
+
+    filter: blur(3px); 
+}
+
+.hero-banner::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+
+    width: 100%;
+    height: 8%;
+
+    background: linear-gradient(to bottom, transparent, #64748B);
+
+    pointer-events: none;
 }
 
 
